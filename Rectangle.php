@@ -1,7 +1,9 @@
 <?php
-namespace inheritance;
+namespace geometry_object;
+use Shape;
+
 include_once "Shape.php";
-class Rectangle extends \Shape {
+class Rectangle extends Shape {
     public $width;
     public $height;
 
