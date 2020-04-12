@@ -1,7 +1,6 @@
 <?php
-namespace geometry_object;
+namespace geometry_object\Circle;
 use Shape;
-
 include_once "Shape.php";
 class Circle extends Shape {
     public $radius;

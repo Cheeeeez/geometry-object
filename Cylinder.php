@@ -1,6 +1,8 @@
 <?php
+namespace geometry_object\Cylinder;
+use geometry_object\Circle\Circle;
 include_once "Circle.php";
-class Cylinder extends geometry_object\Circle {
+class Cylinder extends Circle {
     public $height;
 
     public function __construct($name, $radius, $height) {
