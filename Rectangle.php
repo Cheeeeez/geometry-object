@@ -1,7 +1,5 @@
 <?php
 namespace geometry_object;
-use Shape;
-
 include_once "Shape.php";
 class Rectangle extends Shape {
     public $width;

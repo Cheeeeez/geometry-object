@@ -1,4 +1,5 @@
 <?php
+namespace geometry_object;
 class Shape {
     public $name;
 
